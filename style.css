@@ -20,11 +20,11 @@ section{
   font-size: 26px;
   border-radius: 25px;
   opacity: 80%;
-  color:rgb(31, 72, 174);
+  color:rgb(101, 161, 197);
 }
 
 .carousel{
-    width: 29%;
+    width: 28.8%;
     overflow-x: auto;
     margin: 3em auto;
     display: flex;
@@ -44,7 +44,7 @@ section{
     background-color: blueviolet;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
-    color:blue;
+  color:rgb(101, 161, 197);
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -81,7 +81,7 @@ section{
   font-size: 25px;
   border-radius: 25px;
   opacity: 80%;
-  color:rgb(12, 10, 176);
+  color:rgb(101, 161, 197);
   box-shadow: 0px 2px 8px 2px;
 }
 
@@ -104,7 +104,7 @@ section{
   font-size: 25px;
   border-radius: 25px;
   opacity: 80%;
-  color:rgb(12, 10, 176);
+  color:rgb(101, 161, 197);
   box-shadow: 0px 2px 8px 2px;
 }
 
@@ -127,7 +127,7 @@ section{
   font-size: 25px;
   border-radius: 25px;
   opacity: 80%;
-  color:rgb(12, 10, 176);
+  color:rgb(101, 161, 197);
   box-shadow: 0px 2px 8px 2px;
 }
 
@@ -152,7 +152,7 @@ section{
   font-size: 25px;
   border-radius: 25px;
   opacity: 80%;
-  color:rgb(12, 10, 176);
+  color:rgb(101, 161, 197);
   box-shadow: 0px 2px 8px 2px;
 }
 
