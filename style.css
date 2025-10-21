@@ -1,0 +1,168 @@
+body{
+  font-family: monospace;
+  background-image: url("backround.avif");
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+  background-image: url("blue.png");
+  background-size: 110px;
+  text-align: center;
+  min-height: 90px;
+  width: 22%;
+  margin-bottom: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(31, 72, 174);
+}
+
+.carousel{
+    width: 29%;
+    overflow-x: auto;
+    margin: 3em auto;
+    display: flex;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --carousel;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel ::-webkit-scrollbar {
+ display: none;
+}
+
+.carousel::scroll-button(right), .carousel::scroll-button(left) {
+    content: '->';
+    border: none;
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color:blue;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    opacity: 80%;
+    cursor:pointer;
+    position:fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    translate: -50%;
+}
+
+.carousel::scroll-button(left) {
+    content: '<-';
+    position-area: left center;
+    translate: 50%;
+}
+
+.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled {
+    opacity: 10%;
+    cursor:auto;
+}
+
+.aboutme{
+  scroll-snap-align: start;
+  flex: 0 0 15em;
+  text-align: center;
+  min-height: 150px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: rgb(86, 47, 149);
+  padding: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(12, 10, 176);
+  box-shadow: 0px 2px 8px 2px;
+}
+
+.aboutme:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+.pastProjects{
+  scroll-snap-align: start;
+  flex: 0 0 15em;
+  text-align: center;
+  min-height: 150px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: rgb(86, 47, 149);
+  padding: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(12, 10, 176);
+  box-shadow: 0px 2px 8px 2px;
+}
+
+.pastProjects:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+.contactinfo{
+  scroll-snap-align: start;
+  flex: 0 0 15em;
+  text-align: center;
+  min-height: 150px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: rgb(86, 47, 149);
+  padding: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(12, 10, 176);
+  box-shadow: 0px 2px 8px 2px;
+}
+
+.contactinfo:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+
+
+
+
+.facts{
+  text-align: center;
+  min-height: 10px;
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: rgb(86, 47, 149);
+  padding: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
+  font-size: 25px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(12, 10, 176);
+  box-shadow: 0px 2px 8px 2px;
+}
+
+
+
+
+h1{ 
+    color: rgb(86, 47, 149);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 15px
+   
+}

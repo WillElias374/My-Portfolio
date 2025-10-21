@@ -1,0 +1,25 @@
+body{
+  font-family: monospace;
+  background-image: url("backround.avif");
+}
+
+
+
+
+
+
+.facts{
+  text-align: center;
+  min-height: 10px;
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: rgb(86, 47, 149);
+  padding: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
+  font-size: 25px;
+  border-radius: 25px;
+  opacity: 80%;
+  color:rgb(12, 10, 176);
+}
+
